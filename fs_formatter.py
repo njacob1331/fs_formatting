@@ -386,7 +386,7 @@ def update_uploaded_files(selected_files, selected_contents, stored_files, store
         
         if stored_files is None:
             
-            return_files = 'No Files Have Been Uploaded.'
+            return_files = ''
             return_contents = pd.DataFrame().to_dict('records')
             cols = get_cols(return_contents)
             
