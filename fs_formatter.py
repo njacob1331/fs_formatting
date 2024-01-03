@@ -22,7 +22,7 @@ import pandas as pd
 from datetime import datetime
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 # In[68]:
 
